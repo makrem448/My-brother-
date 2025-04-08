@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة مزيفة</title>
+</head>
+<body>
+  <h1>أدخل بياناتك هنا</h1>
+  <form action="submit_form.php" method="post">
+    <input type="text" name="username" placeholder="اسم المستخدم" required><br>
+    <input type="password" name="password" placeholder="كلمة المرور" required><br>
+    <button type="submit">تسجيل الدخول</button>
+  </form>
+</body>
+</html>
